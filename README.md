@@ -5,11 +5,11 @@ Utilizza **Selenium** per caricare la pagina, estrarre il contenuto della chat e
 
 ---
 
-## 🚀 Requisiti
+##  Requisiti
 
 - Python 3.8+
 - [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) installato sul sistema  
-  ⚠️ Assicurati di aggiornare nel codice il percorso corretto:  
+  Assicurati di aggiornare nel codice il percorso corretto:  
  
  
  path_wkhtmltopdf = r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe"
@@ -36,5 +36,6 @@ Argomenti disponibili
 --output → nome del file PDF in uscita (default: chat_emotional.pdf)
 
 --all → "yes" per esportare tutta la chat (domande + risposte), "no" per esportare solo le risposte di GPT
+
 
 --wait → tempo di attesa in secondi per il caricamento completo della pagina (default: 30)
