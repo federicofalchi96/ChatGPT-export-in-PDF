@@ -1,4 +1,4 @@
-# 📑 ChatGPT Exporter in PDF
+# ChatGPT Exporter in PDF
 
 Questo script Python permette di **esportare una chat di ChatGPT in PDF** partendo dall’URL di condivisione.  
 Utilizza **Selenium** per caricare la pagina, estrarre il contenuto della chat e **pdfkit / wkhtmltopdf** per generare un file PDF ben formattato.
@@ -39,3 +39,4 @@ Argomenti disponibili
 
 
 --wait → tempo di attesa in secondi per il caricamento completo della pagina (default: 30)
+
